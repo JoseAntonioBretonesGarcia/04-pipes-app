@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-basics-page',
   templateUrl: './basics-page.component.html',
-  styleUrls: ['./basics-page.component.css']
+  styleUrls: ['./basics-page.component.css'],
 })
 export class BasicsPageComponent {
-
+  public nameLower: string = 'jose antonio';
+  public nameUpper: string = 'JOSE ANTONIO';
+  public fullName: string = 'jOsE aNtONiO';
+  public customDate: Date = new Date();
 }
